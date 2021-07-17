@@ -13,6 +13,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 #git  https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/kenzok8/small.git
-git clone https://github.com/destan19/OpenAppFilter.git
+git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
+git clone https://github.com/kenzok8/small package/small
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
